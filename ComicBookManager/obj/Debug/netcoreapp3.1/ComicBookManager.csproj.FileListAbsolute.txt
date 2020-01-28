@@ -1,0 +1,11 @@
+D:\GitRepos\ComicBookManager\ComicBookManager\obj\Debug\netcoreapp3.1\ComicBookManager.csprojAssemblyReference.cache
+D:\GitRepos\ComicBookManager\ComicBookManager\obj\Debug\netcoreapp3.1\ComicBookManager.AssemblyInfoInputs.cache
+D:\GitRepos\ComicBookManager\ComicBookManager\obj\Debug\netcoreapp3.1\ComicBookManager.AssemblyInfo.cs
+D:\GitRepos\ComicBookManager\ComicBookManager\bin\Debug\netcoreapp3.1\ComicBookManager.exe
+D:\GitRepos\ComicBookManager\ComicBookManager\bin\Debug\netcoreapp3.1\ComicBookManager.deps.json
+D:\GitRepos\ComicBookManager\ComicBookManager\bin\Debug\netcoreapp3.1\ComicBookManager.runtimeconfig.json
+D:\GitRepos\ComicBookManager\ComicBookManager\bin\Debug\netcoreapp3.1\ComicBookManager.runtimeconfig.dev.json
+D:\GitRepos\ComicBookManager\ComicBookManager\bin\Debug\netcoreapp3.1\ComicBookManager.dll
+D:\GitRepos\ComicBookManager\ComicBookManager\bin\Debug\netcoreapp3.1\ComicBookManager.pdb
+D:\GitRepos\ComicBookManager\ComicBookManager\obj\Debug\netcoreapp3.1\ComicBookManager.dll
+D:\GitRepos\ComicBookManager\ComicBookManager\obj\Debug\netcoreapp3.1\ComicBookManager.pdb
