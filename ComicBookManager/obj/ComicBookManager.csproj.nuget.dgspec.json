@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitRepos\\ComicBookManager\\ComicBookManager\\ComicBookManager.csproj": {}
+    "C:\\GitRepos\\ComicBookManager\\ComicBookManager\\ComicBookManager.csproj": {}
   },
   "projects": {
-    "D:\\GitRepos\\ComicBookManager\\ComicBookManager\\ComicBookManager.csproj": {
+    "C:\\GitRepos\\ComicBookManager\\ComicBookManager\\ComicBookManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitRepos\\ComicBookManager\\ComicBookManager\\ComicBookManager.csproj",
+        "projectUniqueName": "C:\\GitRepos\\ComicBookManager\\ComicBookManager\\ComicBookManager.csproj",
         "projectName": "ComicBookManager",
-        "projectPath": "D:\\GitRepos\\ComicBookManager\\ComicBookManager\\ComicBookManager.csproj",
+        "projectPath": "C:\\GitRepos\\ComicBookManager\\ComicBookManager\\ComicBookManager.csproj",
         "packagesPath": "C:\\Users\\jameshu\\.nuget\\packages\\",
-        "outputPath": "D:\\GitRepos\\ComicBookManager\\ComicBookManager\\obj\\",
+        "outputPath": "C:\\GitRepos\\ComicBookManager\\ComicBookManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
