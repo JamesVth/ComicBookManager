@@ -16,11 +16,11 @@ namespace ComicBookManager
         public string CoverArtist { get; set; }
         public string StoryTitle { get; set; }
         public string Note { get; set; }
-        public List<string> Writers { get; private set; }
-        public List<string> Pencillers { get; private set; }
-        public List<string> Inkers { get; private set; }
-        public List<string> Colorists { get; private set; }
-        public List<string> Characters { get; private set; }
+        public List<Contributor> Writers { get; private set; }
+        public List<Contributor> Pencillers { get; private set; }
+        public List<Contributor> Inkers { get; private set; }
+        public List<Contributor> Colorists { get; private set; }
+        public List<Character> Characters { get; private set; }
         #endregion
 
         #region Methods
