@@ -16,10 +16,7 @@ namespace ComicBookManager
         public string CoverArtist { get; set; }
         public string StoryTitle { get; set; }
         public string Note { get; set; }
-        public List<Contributor> Writers { get; private set; }
-        public List<Contributor> Pencillers { get; private set; }
-        public List<Contributor> Inkers { get; private set; }
-        public List<Contributor> Colorists { get; private set; }
+        public List<Contributor> Contributors { get; private set; }
         public List<Character> Characters { get; private set; }
         #endregion
 
@@ -28,45 +25,18 @@ namespace ComicBookManager
         /// Add a writer to the comic book
         /// </summary>
         /// <param name="Writer">The writer's name</param>
-        public void AddWriter(string Writer)
+        public void AddConstributor(Contributor contributor)
         {
-            Writers.Add(Writer);
-        }
-
-        /// <summary>
-        /// Add a penciller to the comic book
-        /// </summary>
-        /// <param name="Penciller">The penciller's name</param>
-        public void AddPenciller(string Penciller)
-        { 
-            Pencillers.Add(Penciller);
-        }
-
-        /// <summary>
-        /// Add an inker to the comic book
-        /// </summary>
-        /// <param name="Inker">The inker's name</param>
-        public void AddInker(string Inker)
-        {
-            Inkers.Add(Inker);
-        }
-
-        /// <summary>
-        /// Add a colorist to the comic book
-        /// </summary>
-        /// <param name="Colorist">The colorist's name</param>
-        public void AddColorist(string Colorist)
-        {
-            Colorists.Add(Colorist);
+            Contributors.Add(contributor);
         }
 
         /// <summary>
         /// Add a character to the comic book
         /// </summary>
         /// <param name="Character">The character's name</param>
-        public void AddCharacter(string Character)
+        public void AddCharacter(Character character)
         {
-            Characters.Add(Character);
+            Characters.Add(character);
         }
         #endregion
 
@@ -81,12 +51,6 @@ namespace ComicBookManager
         /// <param name="CoverPrice">The comic book's cover price</param>
         public ComicBook(string Publisher, string BookTitle, int IssueNumber, DateTime PublishedDate, Decimal CoverPrice)
         {
-            var Writers = new List<string>();
-            var Pencillers = new List<string>();
-            var Inkers = new List<string>();
-            var Colorists = new List<string>();
-            var Characters = new List<string>();
-
             this.Publisher = Publisher;
             this.BookTitle = BookTitle;
             this.IssueNumber = IssueNumber;
